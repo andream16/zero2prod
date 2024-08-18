@@ -19,7 +19,7 @@ serde = { version = "1", features = ["derive"] }
 reqwest = "0.12.5"
 
 [dependencies.sqlx]
-version = "0.8.0"
+version = "0.7.4"
 default-features = false
 features = [
     "runtime-tokio-rustls",
